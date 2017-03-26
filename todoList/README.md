@@ -8,11 +8,11 @@
 ### 下载安装
 Gradle:  
 ``` xml
-npm i 安装相关dependencies 或 npm start 安装相关模板
+npm i 安装相关dependencies
 ```
 ### 使用方法
 
-安装完成后，若本地打开需要搭建node服务器，修改server.js文件路径，完成后运行以下命令即可：
+本地搭建node服务器，修改server.js文件路径
 
 Gradle:  
 ``` xml
