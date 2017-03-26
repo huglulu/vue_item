@@ -1,0 +1,73 @@
+<html>
+  <head>	
+  	<meta charset="utf-8">
+  	<link rel="stylesheet" href="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css"> 
+  </head>
+  <body>
+  	<div id="app">
+  		<section id="signInAndSignUp" v-if="!currentUser">
+  			<div  class="register-load">
+  				<label><input type="radio" name="type" value="signUp" v-model="actionType">注册</label>
+  				<label><input type="radio" name="type" value="login" v-model="actionType">登录</label>
+  			</div>
+			<div class="signup" v-if="actionType=='signUp'">
+				<form @submit.prevent= 'signUp'>
+					<div class="enroll-box">
+						<div class="formRow">
+							<label class="enroll-title">账&nbsp;&nbsp;号：</label>
+							<input class="zc-input" type="text" placeholder="用户名" v-model="formData['username']">
+						</div>
+						<span class="enroll-not"></span>
+						<div class="formRow">
+							<label class="enroll-title">密&nbsp;&nbsp;码：</label>
+							<input class="zc-input" type="text" placeholder="设置密码" v-model="formData['password']">
+						</div>	
+						<div class="formActions">
+							<input type="submit" value="注册">
+						</div>	
+					</div>
+				</form>
+			</div>
+			<div class="login" v-if="actionType=='login'">
+				<form @submit.prevent= 'login'>
+					<div class="enroll-box">
+						<div class="formRow">
+							<label class="enroll-title">账&nbsp;&nbsp;号：</label>
+							<input class="zc-input" type="text" placeholder="输入账号" v-model="formData['username']">
+						</div>
+						<span class="enroll-not"></span>
+						<div class="formRow">
+							<label class="enroll-title">密&nbsp;&nbsp;码：</label>
+							<input class="zc-input" type="text" placeholder="输入密码" v-model="formData['password']">
+						</div>	
+						<div class="formActions">
+							<input type="submit" value="登陆">
+						</div>	
+					</div>
+				</form>
+			</div>
+  		</section>
+		<section id="todo" v-if="currentUser">
+			<p v-if="currentUser.username" class="pson">用户：{{currentUser.username}}</p>
+			<p><button @click="logout">返回</button></p>
+			<div class="newTask">
+				<input type="text" class="form-control" v-model="newTodo" @keypress.enter="addTodo" placeholder="请输入代办事项">			
+			</div>
+			<ol class="todos">
+				<li v-for="todo in todoList" v-cloak>
+					<input type="checkbox" v-model="todo.done">
+					<span class="tit">{{todo.title}}</span>
+					<span v-if="todo.done">已完成</span>
+					<span v-else>未完成</span>
+					<span>创建时间</span>
+					<span>{{todo.createdAt}}</span>		 
+			        <button type="button" class="btn btn-default btn-sm xbtn" @click="removeTodo(todo)">
+			         	<span class="glyphicon glyphicon-remove"></span>
+			        </button>
+				</li>
+			</ol>
+		</section>
+	</div>
+    <script src="bundle.js"></script>
+  </body>
+</html>
