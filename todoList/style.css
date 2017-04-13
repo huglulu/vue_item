@@ -179,7 +179,8 @@ p,button{
     cursor: pointer;
     border-radius: 4px;
 }
-#todo .logs>button:hover {opacity: 0.6;}
+#todo .logs>button:hover,
+.todos .btn-danger:hover {opacity: 0.6;}
 .todos .btn-danger{
     color: #fff;
     background-color: #d9534f;
