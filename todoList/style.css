@@ -1,0 +1,95 @@
+body{
+	font: 14px/24px "microsoft yahei",\5b8b\4f53;
+	letter-spacing: 1px;
+	background-color: #f4f7fa;
+	position: relative;
+}
+[v-cloak] {display: none;}
+#app{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);			
+	-webkit-transform: translate(-50%, -50%);
+	overflow: hidden;
+}
+.register-load{
+	text-align: center;
+	display: flex;
+}
+.register-load label{
+ 	flex-grow: 1;
+  	height: 40px;
+  	line-height: 40px;
+  	font-size: 18px;
+  	margin-bottom: 20px;
+}
+.enroll-box{
+	padding-top: 10px;
+	text-align: center;
+	overflow: hidden;
+}
+.enroll-title{color: #666;}
+label{cursor: default;}
+.zc-input{
+    width: 215px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0px 5px;
+    height: 34px;
+    line-height: 36px;
+    margin-top: -3px;
+    font-size: 0.85em;
+}
+.signup input,
+.login input{
+    vertical-align: middle;
+    outline: none;
+    font-size: 14px;
+}
+.enroll-not {
+    margin-left: 77px;
+    padding: 3px 0px;
+    display: block;
+    line-height: 24px;
+    height: 24px;
+    color: red;
+}		
+.formActions{
+	margin-top: 20px;
+}
+.formActions input{
+	display: inline-block;
+	margin:0 auto;
+	width: 274px;
+	padding: 5px 14px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.5;
+    height: 34px;
+    border-radius: 3px;
+    background-color: #f06000;
+}
+
+.todos{margin-top:20px;}
+.tit{width: 140px;}
+.newTask{
+	width: 560px;
+}
+ol>li{
+	height: 40px;
+	line-height: 40px;
+}
+li>span{
+	margin: auto 5px;
+	display: inline-block;
+	vertical-align: bottom;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+#todo .pson{
+	font-size: 16px;
+	font-weight: bold;
+}
