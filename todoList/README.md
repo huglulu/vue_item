@@ -2,7 +2,7 @@
 #todoList
 -------------
 ### 预览
-https://huglulu.github.io/vue_item/todolist/page.html
+https://huglulu.github.io/vue_item/todoList/
 ### 下载安装
 Gradle:  
 ``` xml
