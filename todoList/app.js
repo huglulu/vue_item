@@ -8,12 +8,21 @@ AV.init({
   appId: APP_ID,
   appKey: APP_KEY
 });
-
+//验证AV可否使用
+// var TestObject = AV.Object.extend('TestObject');
+// var testObject = new TestObject();
+// testObject.save({
+//   words: 'Hello World!'
+// }).then(function(object) {
+//   alert('LeanCloud Rocks!');
+// })
 var app = new Vue({
 	el:'#app',
 	data:{
 		newTodo:'',
 		todoList:[],
+		stylesa:'stya',
+		stylesb:'styb',
 		actionType:'signUp',
 		formData:{
 			username:'',
@@ -62,14 +71,18 @@ var app = new Vue({
 			}
 		},
 		addTodo:function(){
-			this.todoList.push({
-				title : this.newTodo,
-				createdAt : this.getTimes() ,
-				done : false
-			})
-			console.log(this.todoList);
-			this.newTodo = '';
-			this.saveOrUpdateTodos();
+			if (this.newTodo) {
+				this.todoList.push({
+					title : this.newTodo,
+					createdAt : this.getTimes() ,
+					done : false
+				})
+				console.log(this.todoList);
+				this.newTodo = '';
+				this.saveOrUpdateTodos();
+			}else{
+				alert('请输入代办事项！');
+			}
 		},
 		removeTodo:function(todo){
 			let index = this.todoList.indexOf(todo);
