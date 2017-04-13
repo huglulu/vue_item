@@ -16,5 +16,5 @@ webpack
 ```
 Gradle:  
 ``` xml
-node server.js
+open page.html
 ```
