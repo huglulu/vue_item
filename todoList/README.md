@@ -6,7 +6,7 @@ https://huglulu.github.io/vue_item/todoList/
 ### 下载安装
 Gradle:  
 ``` xml
-npm i 安装相关dependencies
+npm install
 ```
 ### 使用方法
 
@@ -16,5 +16,5 @@ webpack
 ```
 Gradle:  
 ``` xml
-open page.html
+open index.html
 ```
