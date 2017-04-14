@@ -155,6 +155,13 @@ var app = new Vue({
 			}else{
 				this.stylesb = 'styb';	
 			}
-		}
+		},
+		iscurrentUser:function(){
+			if (this.currentUser) {
+				return true;
+			}else{
+				return false;
+			}
+		}		
 	}
 })
