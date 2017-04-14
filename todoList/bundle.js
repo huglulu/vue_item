@@ -25834,7 +25834,7 @@ exports = module.exports = __webpack_require__(9)(undefined);
 
 
 // module
-exports.push([module.i, "body{\r\n\tfont: 14px/24px \"microsoft yahei\",\\5b8b\\4f53;\r\n\tletter-spacing: 1px;\r\n\tbackground-color: #f4f7fa;\r\n}\r\n[v-cloak] {display: none;}\r\n#app{\r\n\twidth: 580px;\r\n\tmargin: 0 auto;\r\n\tpadding-top: 100px;\r\n}\r\n.todos{margin-top:20px;}\r\n.tit{width: 140px;}\r\nol>li{\r\n\theight: 40px;\r\n\tline-height: 40px;\r\n}\r\nli>span{\r\n\tmargin: auto 5px;\r\n\tdisplay: inline-block;\r\n\tvertical-align: bottom;\r\n\toverflow: hidden;\r\n\twhite-space: nowrap;\r\n\ttext-overflow: ellipsis;\r\n}\r\n.enroll-box{\r\n\tpadding-top: 10px;\r\n\toverflow: hidden;\r\n}\r\n.enroll-title{color: #666;}\r\nlabel{cursor: default;}\r\n.zc-input{\r\n    width: 215px;\r\n    border-radius: 5px;\r\n    border: 1px solid #ccc;\r\n    padding: 0px 5px;\r\n    height: 34px;\r\n    line-height: 36px;\r\n    margin-top: -3px;\r\n    font-size: 0.85em;\r\n}\r\n.signup input,\r\n.login input{\r\n    vertical-align: middle;\r\n    outline: none;\r\n    font-size: 14px;\r\n}\r\n.enroll-not {\r\n    margin-left: 77px;\r\n    padding: 3px 0px;\r\n    display: block;\r\n    line-height: 24px;\r\n    height: 24px;\r\n    color: red;\r\n}\r\n#todo .pson{\r\n\tfont-size: 16px;\r\n\tfont-weight: bold;\r\n}", ""]);
+exports.push([module.i, "  \t\tp,button{\r\n  \t\t\tmargin: 0;\r\n  \t\t\tpadding: 0;\r\n  \t\t}\r\n  \t\tbody{\r\n  \t\t\tfont: 14px/24px \"microsoft yahei\",\\5b8b\\4f53;\r\n  \t\t\tletter-spacing: 1px;\r\n  \t\t\tbackground-color: #CDCDCD;\r\n  \t\t\tposition: relative;\r\n  \t\t}\r\n\t\t[v-cloak] {display: none;}\r\n\t\t.container{\r\n\t\t\twidth: 100%;\r\n\t\t\theight: 100%;\r\n\t\t\tpadding: 0px;\r\n\t\t\tposition: relative;\r\n\t\t}\r\n\t\t.ct{\r\n\t\t\theight: 50px;\r\n\t\t\twidth: 100%;\r\n\t\t\ttext-align: left;\r\n\t\t\tpadding-left:30px; \r\n\t\t\tfont-size: 26px;\r\n\t\t\tline-height: 50px;\r\n\t\t\tbackground: rgba(47,47,47,0.98);\r\n\t\t    color: #DDD;\r\n\t\t    cursor: pointer;\r\n\t\t    font-family: \"Helvetica Neue\",Helvetica,Arial,sans-serif;\r\n\t\t}\r\n\t\t#app{\r\n\t\t\twidth: 100%;\r\n\t\t\theight: 100%;\r\n\t\t}\r\n\t\t.styb{\r\n\t\t\tposition: absolute;\r\n\t\t\twidth: 300px;\r\n\t\t\tleft: 50%;\r\n\t\t\ttop: 50%;\r\n\t\t\ttransform: translate(-50%,-50%);\t\t\t\r\n\t\t\t-webkit-transform: translate(-50%, -50%);\r\n\t\t\toverflow: hidden;\r\n\t\t\tbackground: #5F9EA0;\r\n\t\t\tpadding: 8px;\r\n\t\t\tborder-radius: 8px;\t\t\t\r\n\t\t}\r\n\t\t.stya{\r\n\t\t\twidth: 100%;\r\n\t\t\theight: 100%;\r\n\t\t\tbackground: #CDCDCD;\t\r\n\t\t}\t\t\r\n\t\t.register-load{\r\n\t\t\ttext-align: center;\r\n\t\t\toverflow: auto;\r\n\t\t\tmargin-bottom: 10px;\r\n\t\t}\r\n\t\t.register-load label{\r\n\t\t  \theight: 40px;\r\n\t\t  \tline-height: 40px;\r\n\t\t  \tfont-size: 18px;\r\n\t\t}\r\n\t\t.register-load label:nth-child(1){\r\n\t\t\tfloat: left;\r\n\t\t\tmargin-left: 40px;\r\n\t\t}\r\n\t\t.register-load label:nth-child(2){\r\n\t\t\tfloat: right;\r\n\t\t\tmargin-right: 40px;\r\n\t\t}\t\t\t\r\n\t\t.enroll-box{\r\n\t\t\tpadding-top: 10px;\r\n\t\t\ttext-align: center;\r\n\t\t\toverflow: hidden;\r\n\t\t}\r\n\t\t.enroll-title{color: #666;}\r\n\t\tlabel{cursor: default;}\r\n\t\t.zc-input{\r\n\t\t    width: 215px;\r\n\t\t    border-radius: 5px;\r\n\t\t    border: 1px solid #ccc;\r\n\t\t    padding: 0px 5px;\r\n\t\t    height: 34px;\r\n\t\t    line-height: 36px;\r\n\t\t    margin-top: -3px;\r\n\t\t    font-size: 0.85em;\r\n\t\t}\r\n\t\t.signup input,\r\n\t\t.login input{\r\n\t\t    vertical-align: middle;\r\n\t\t    outline: none;\r\n\t\t    font-size: 14px;\r\n\t\t}\r\n\t\t.enroll-not {\r\n\t\t    margin-left: 77px;\r\n\t\t    padding: 3px 0px;\r\n\t\t    display: block;\r\n\t\t    line-height: 24px;\r\n\t\t    height: 24px;\r\n\t\t    color: red;\r\n\t\t}\t\t\r\n\t\t.formActions{\r\n\t\t\tmargin-top: 20px;\r\n\t\t\twidth: 100%;\r\n\t\t\theight: 35px;\t\t\r\n\t\t\ttext-align: right;\r\n\t\t}\r\n\t\t.formActions input{\r\n\t\t\tdisplay: inline-block;\r\n\t\t\tmargin:0 auto;\r\n\t\t\tmargin-right: 10px;\r\n\t\t\tpadding: 5px 14px;\r\n\t\t    text-align: center;\r\n\t\t    color: #fff;\r\n\t\t    font-size: 14px;\r\n\t\t    line-height: 1.5;\r\n\t\t    height: 34px;\r\n\t\t    border-radius: 6px;\r\n\t\t    background-color: #c1f36e;\r\n\t\t    cursor: pointer;\r\n\t\t}\r\n\t\t.formActions input:hover{\r\n\t\t\tbackground-color: #aad661;\r\n\t\t    cursor: pointer;\t\r\n\t\t}\r\n\t\t.todos{margin-top:20px;}\r\n\t\t.tit{width: 140px;}\r\n\t\t.newTask{\r\n\t\t\twidth: 700px;\r\n\t\t\tmargin: 0 auto;\r\n\t\t}\r\n\t\t.newTask input{\r\n\t\t\twidth: 80%;\r\n\t\t    height: 34px;\r\n\t\t    margin-top: 12px;\r\n\t\t    text-indent: 10px;\r\n\t\t    border-radius: 8px;\r\n\t\t    box-shadow: 0 1px 0 rgba(255,255,255,0.24), 0 1px 6px rgba(0,0,0,0.45) inset;\r\n\t\t    border: none;\r\n\t\t}\r\n\t\tol>li{\r\n\t\t\theight: 40px;\r\n\t\t\tline-height: 40px;\r\n\t\t}\r\n\t\tli>span{\r\n\t\t\tmargin: auto 5px;\r\n\t\t\tdisplay: inline-block;\r\n\t\t\tvertical-align: bottom;\r\n\t\t\toverflow: hidden;\r\n\t\t\twhite-space: nowrap;\r\n\t\t\ttext-overflow: ellipsis;\r\n\t\t}\r\n\t\t#todo{\r\n\t\t\twidth: 700px;\r\n\t\t\tmargin: 10px auto;\r\n\t\t}\r\n\t\t#todo p{\r\n\t\t\tdisplay: inline-block;\r\n\t\t}\r\n\t\t#todo .logs>.pson{\r\n\t\t\tmargin: 0 420px 0 10px;\r\n\t\t\tfont-size: 16px;\r\n\t\t\tfont-weight: bold;\r\n\t\t}\r\n\t\t#todo .logs{\r\n\t\t\theight: 50px;\r\n\t\t\tline-height: 50px;\r\n\t\t}\r\n\t\t#todo .logs>button{\r\n\t\t\tcolor: #fff;\r\n\t\t    background-color: #337ab7;\r\n\t\t    padding: 5px 10px;\r\n\t\t    display: inline-block;\r\n\t\t    margin-bottom: 0;\r\n\t\t    font-size: 14px;\r\n\t\t    font-weight: 400;\r\n\t\t    line-height: 1.4;\r\n\t\t    text-align: center;\r\n\t\t    white-space: nowrap;\r\n\t\t    vertical-align: middle;\r\n\t\t    cursor: pointer;\r\n\t\t    border-radius: 4px;\r\n\t\t}\r\n\t\t#todo .logs>button:hover,\r\n\t\t.todos .btn-danger:hover {opacity: 0.6;}\r\n\t\t.todos .btn-danger{\r\n\t\t    color: #fff;\r\n\t\t    background-color: #d9534f;\r\n\t\t    padding: .5px 6px;\r\n\t\t    margin-top: -6px;\r\n\t\t    font-size: 14px;\r\n\t\t    font-weight: 400;\r\n\t\t    line-height: 1.2;\r\n\t\t    text-align: center;\r\n\t\t    white-space: nowrap;\r\n\t\t    vertical-align: middle;\r\n\t\t    cursor: pointer;\r\n\t\t    border-radius: 4px;\t\t\t\r\n\t\t}", ""]);
 
 // exports
 
@@ -26188,6 +26188,8 @@ var app = new _vue2.default({
 	data: {
 		newTodo: '',
 		todoList: [],
+		stylesa: '',
+		stylesb: '',
 		actionType: 'signUp',
 		formData: {
 			username: '',
@@ -26264,14 +26266,18 @@ var app = new _vue2.default({
 			}
 		},
 		addTodo: function addTodo() {
-			this.todoList.push({
-				title: this.newTodo,
-				createdAt: this.getTimes(),
-				done: false
-			});
-			console.log(this.todoList);
-			this.newTodo = '';
-			this.saveOrUpdateTodos();
+			if (this.newTodo) {
+				this.todoList.push({
+					title: this.newTodo,
+					createdAt: this.getTimes(),
+					done: false
+				});
+				console.log(this.todoList);
+				this.newTodo = '';
+				this.saveOrUpdateTodos();
+			} else {
+				alert('请输入代办事项！');
+			}
 		},
 		removeTodo: function removeTodo(todo) {
 			var index = this.todoList.indexOf(todo);
@@ -26339,6 +26345,7 @@ var app = new _vue2.default({
 			var _this4 = this;
 
 			if (this.currentUser) {
+				this.stylesa = 'stya';
 				var query = new _leancloudStorage2.default.Query('AllTodos');
 				query.find().then(function (todos) {
 					console.log(todos);
@@ -26349,6 +26356,15 @@ var app = new _vue2.default({
 				}, function (error) {
 					console.error(error);
 				});
+			} else {
+				this.stylesb = 'styb';
+			}
+		},
+		iscurrentUser: function iscurrentUser() {
+			if (this.currentUser) {
+				return true;
+			} else {
+				return false;
 			}
 		}
 	}
