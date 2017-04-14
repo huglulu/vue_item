@@ -1,14 +1,10 @@
----
-#A resumer
--------------
+# resumer
 
-#  basic functions
-you can add your resume content, including personal information, work experience, study experience, award status, project experience and contact information.and update your resume.
+> A Vue.js project
 
-### Build Setup
+## Build Setup
 
-Gradle:  
-``` xml
+``` bash
 # install dependencies
 npm install
 
@@ -26,5 +22,6 @@ npm run unit
 
 # run all tests
 npm test
-
 ```
+
+For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
