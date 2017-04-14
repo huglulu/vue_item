@@ -21,8 +21,6 @@ var app = new Vue({
 	data:{
 		newTodo:'',
 		todoList:[],
-		stylesa:'stya',
-		stylesb:'styb',
 		actionType:'signUp',
 		formData:{
 			username:'',
@@ -83,6 +81,7 @@ var app = new Vue({
 			}else{
 				alert('请输入代办事项！');
 			}
+
 		},
 		removeTodo:function(todo){
 			let index = this.todoList.indexOf(todo);
@@ -140,7 +139,7 @@ var app = new Vue({
 			}
 		},
 		fetchTodos:function(){
-			if (this.currentUser) {
+			if (this.currentUser) {		
 				var query = new AV.Query('AllTodos');
 				query.find().then((todos) => {
 					console.log(todos);
@@ -152,13 +151,6 @@ var app = new Vue({
 					console.error(error);
 				})
 			}
-		},
-		iscurrentUser:function(){
-			if (this.currentUser) {
-				return true;
-			}else{
-				return false;
-			}
-		}		
+		}
 	}
 })
