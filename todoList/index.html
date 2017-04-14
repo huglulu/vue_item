@@ -7,7 +7,7 @@
 	  <div class="container">
 	  	<div class="ct">ToDoList</div>
 	  	<div id="app" >
-	  	  <div :class="[currentUser ? stylesa : '', stylesb]">
+	  	  <div :class="[currentUser ? stylesa : stylesb]">
 	  		<section id="signInAndSignUp" v-if="!currentUser">
 	  			<div  class="register-load">
 	  				<label><input type="radio" name="type" value="signUp" v-model="actionType">注册</label>
@@ -74,7 +74,7 @@
 					</li>
 				</ol>
 			</section>
-			</div>
+		  </div>
 		</div>
 	</div>
     <script src="bundle.js"></script>
