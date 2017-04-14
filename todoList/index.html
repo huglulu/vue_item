@@ -7,7 +7,7 @@
 	  <div class="container">
 	  	<div class="ct">ToDoList</div>
 	  	<div id="app" >
-	  	  <div :class="[iscurrentUser() ? stylesa : stylesb]">
+	  	  <div :class="iscurrentUser() ? stylesa : stylesb">
 	  		<section id="signInAndSignUp" v-if="!currentUser">
 	  			<div  class="register-load">
 	  				<label><input type="radio" name="type" value="signUp" v-model="actionType">注册</label>

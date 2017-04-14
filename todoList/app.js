@@ -21,8 +21,8 @@ var app = new Vue({
 	data:{
 		newTodo:'',
 		todoList:[],
-		stylesa:'',
-		stylesb:'',
+		stylesa:'stya',
+		stylesb:'styb',
 		actionType:'signUp',
 		formData:{
 			username:'',
@@ -141,7 +141,6 @@ var app = new Vue({
 		},
 		fetchTodos:function(){
 			if (this.currentUser) {
-				this.stylesa = 'stya';
 				var query = new AV.Query('AllTodos');
 				query.find().then((todos) => {
 					console.log(todos);
@@ -152,8 +151,6 @@ var app = new Vue({
 				},function(error){
 					console.error(error);
 				})
-			}else{
-				this.stylesb = 'styb';	
 			}
 		},
 		iscurrentUser:function(){
