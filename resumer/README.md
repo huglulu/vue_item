@@ -2,6 +2,7 @@
 
 > A Vue.js project
 
+you can see at this: 
 [demo](https://huglulu.github.io/vue_item/resumer/dist/#/)
 
 ## Build Setup
