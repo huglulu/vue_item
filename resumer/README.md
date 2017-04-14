@@ -2,6 +2,8 @@
 
 > A Vue.js project
 
+[demo](https://huglulu.github.io/vue_item/resumer/dist/#/)
+
 ## Build Setup
 
 ``` bash
